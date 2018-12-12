@@ -8,7 +8,36 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>GIT PROJECT</h1> 
-
+  <h1>GIT PROJECT</h1>
+    <p>
+      git init <br>
+      git add README.md <br>
+      touch .gitignore <br>[ Créer un fichier gitignore (facultatif)]<br>
+      git commit -m "first commit" <br>
+      git remote add origin https://github.com/nomuser/nomprojet.git <br>
+      git push -u origin master
+    </p>
+    <h3>Configuration</h3>
+    <p>
+      git config --global user.name "votre_user_name" <br>
+      git config --global user.email "votre_email_id"
+    </p>
+    <h3>Status des fichiers</h3>
+    <p>git status</p>
+    <h3>COLLABORATORS :</h3>
+    <p>git clone https://github.com/nomuser/nomprojet.git <br>
+    git pull origin master <br> [Mettre à jour le dépôt local]</p>
+    <h3>Créer une branch</h3>
+    <p>
+      git checkout -b ma_branch <br>
+      git add fichier.extension <br>
+      git commit -m "texte" <br>
+      git remote add origin https://github.com/nomuser/nomprojet.git <br>
+      git push -u origin ma_branch <br>
+    </p>
+    <h3>Changer de branch</h3>
+    <p>git checkout master</p>
+    <h3>Supprimer la branche</h3>
+    <p>git branch -d ma_branch</p>
 </body>
 </html>
